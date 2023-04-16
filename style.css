@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+.half-width{
+    width:40%;
+    margin: 3%;
+    float:left;
+    height: 500px;
+}
+img{
+   width: 100%; 
+}
+#highlight{
+    color: orangered;
+}
+.button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,salmon,tomato);
+    height: 40px;
+    width: 60px;
+    border-radius:5px;
+    margin:3px ;
+    padding:10px 20px;
+    color: azure;
+}
+.exp-card{
+    
+    box-shadow: 20px 20px 40px grey;
+    height: 300px;
+    padding-left: 10px;
+}
+.stack-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,salmon,tomato);
+    border-image-slice:1;
+}
+.baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,rgb(15, 15, 81),cyan);
+    border-image-slice:1;
+}
+.first-sec{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.dream-sec{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position:right;
+}
+.exp-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 500px;
+    
+}
